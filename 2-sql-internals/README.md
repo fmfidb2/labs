@@ -6,18 +6,6 @@ Grading: 2pt
 
 Use `fiitpdt/postgres` container for this lab. Instructions are included in the Lab #1.
 
-If you want to try the queries from the lecure (optional), you will need another container.
-
-```
-docker run -p 5432:5432 fiitpdt/postgres-shakespeare
-```
-
-The database with example data is called `shakespeare`, username is `postgres`, password is blank (there is no password). To connect via `psql`, use:
-
-```
-psql -U postgres -h localhost -p 5432 -d shakespeare
-```
-
 ## 1. See how `like` with a leading pattern is slow
 
 Your users need to search documents (`documents` table) by supplier ICO (`supplier_ico` column).
@@ -86,6 +74,18 @@ Build a covering index on `department, customer`. Is the query faster now?
 Make sure that the covering index is used and that you see an Index-only scan.
 
 ## 6. Optional: Try the queries from the lecture
+
+If you want to try the queries from the lecure (optional), you will need another container.
+
+```
+docker run -p 5432:5432 fiitpdt/postgres-shakespeare
+```
+
+The database with example data is called `shakespeare`, username is `postgres`, password is blank (there is no password). To connect via `psql`, use:
+
+```
+psql -U postgres -h localhost -p 5432 -d shakespeare
+```
 
 Try the queries presented in the lecture and observe their plans.
 
