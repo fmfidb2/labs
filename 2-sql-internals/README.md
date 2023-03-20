@@ -1,7 +1,5 @@
 # Lab 2 - Multicolumn Indices, Joins & Aggregations
 
-Grading: 2pt
-
 ## Setup
 
 Use `fiitpdt/postgres` container for this lab. Instructions are included in the Lab #1.

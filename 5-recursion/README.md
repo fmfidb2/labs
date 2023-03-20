@@ -1,7 +1,5 @@
 # Lab 6 - Recursive SQL
 
-Grading: 3pt
-
 ## Setup
 
 Download and run the docker container as usual

@@ -1,7 +1,5 @@
 # Lab 3 - PostGIS
 
-Grading: 3pt
-
 ## Setup
 
 Download the docker container as usual

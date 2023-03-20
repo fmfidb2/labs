@@ -1,7 +1,5 @@
 # Lab 1 - Query plans & indexing
 
-**Grading**: 1pt
-
 ## Goals
 
 - Install docker and run the provided container. Configure an SQL client of your choice and connect to the database.
