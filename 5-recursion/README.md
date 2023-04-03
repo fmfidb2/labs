@@ -1,4 +1,4 @@
-# Lab 6 - Recursive SQL
+# Lab 5 - Recursive SQL
 
 ## Setup
 

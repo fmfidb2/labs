@@ -1,4 +1,4 @@
-# Session 7 - Fulltext
+# Session 6 - Fulltext
 
 ## Setup
 

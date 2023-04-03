@@ -1,4 +1,4 @@
-# Session 8 - ACID
+# Session 7 - ACID
 
 ## Setup
 
